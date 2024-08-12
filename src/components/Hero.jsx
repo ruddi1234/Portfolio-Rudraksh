@@ -46,8 +46,7 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 74px;
-
+  font-size: 70px;
   @media only screen and (max-width: 768px) {
     text-align: center;
   }
@@ -96,6 +95,22 @@ const Right = styled.div`
   }
 `;
 
+const Icons = styled.div`
+  display: flex;
+  gap: 25px;
+  font-size: 24px;
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: #da4ea2;
+  }
+`;
+
 const Img = styled.img`
   width: 800px;
   height: 600px;
@@ -126,14 +141,28 @@ const Hero = () => {
       <Navbar />
       <Container>
         <Left>
-          <Title>Think. Make. Solve.</Title>
+          <Title>Rudraksh Girdhar</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>What we Do</Subtitle>
+            <Subtitle>Full Stack Developer</Subtitle>
           </WhatWeDo>
           <Desc>
-            we enjoy creating delightful, human-centered digital experiences.
+            Innovative Full Stack Developer crafting seamless digital experiences.
           </Desc>
+          <Icons>
+            <a href="https://www.linkedin.com/in/rudraksh-girdhar/" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-linkedin"></i>
+              LinkedIn
+            </a>
+            <a href="https://github.com/ruddi1234" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github"></i>
+              GitHub
+            </a>
+            <a href="https://www.instagram.com/ruddi_9192__" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-instagram"></i>
+              Instagram
+            </a>
+          </Icons>
           <Button>Learn More</Button>
         </Left>
         <Right>

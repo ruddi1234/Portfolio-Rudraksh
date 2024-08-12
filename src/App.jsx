@@ -3,6 +3,7 @@ import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Who from "./components/Who";
 import Works from "./components/Works";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Container = styled.div`
   height: 100vh;

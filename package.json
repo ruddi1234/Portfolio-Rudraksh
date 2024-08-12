@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "@fortawesome/fontawesome-free": "^6.6.0",
     "@react-three/drei": "^9.56.28",
     "@react-three/fiber": "^8.11.5",
     "@react-three/postprocessing": "^2.7.0",
